@@ -119,12 +119,14 @@ p {
 .buttons .download-btn {
   background-color: #4D96A9;
   padding: 20px 40px;
+  max-width: 16.875rem;
 }
 
 .buttons .what-btn {
   background-color: #855FB1;
   padding: 20px 29px;
   width: 80%;
+  max-width: 13.4375rem;
 }
 
 .rounded-number {
@@ -279,9 +281,11 @@ footer span {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     width: 55%;
+    max-width: 36.5625rem;
   }
   .buttons .download-btn {
     width: 50%;
+    max-width: 215px;
   }
   .buttons .what-btn {
     width: 35%;
@@ -304,6 +308,9 @@ footer span {
 @media screen and (min-width: 1024px) {
   body {
     width: 100%;
+  }
+  .buttons *:hover {
+    cursor: pointer;
   }
   .buttons .download-btn:hover {
     background-color: #71C0D4;

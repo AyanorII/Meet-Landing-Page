@@ -85,12 +85,14 @@ p {
     .download-btn {
         background-color: #4D96A9;
         padding: 20px 40px;
+        max-width: 16.875rem;
     }
     
     .what-btn {
         background-color: #855FB1;
         padding: 20px 29px;
         width: 80%;
+        max-width: 13.4375rem;
     }
 }
 
@@ -233,9 +235,11 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         width: 55%;
+        max-width: 36.5625rem;
 
         .download-btn {
             width: 50%;
+            max-width: 215px;
         }
 
         .what-btn {
@@ -266,6 +270,10 @@ footer {
 @media screen and (min-width: 1024px){
     body {
         width: 100%;
+    }
+
+    .buttons *:hover {
+        cursor: pointer;
     }
 
     .buttons .download-btn:hover {
